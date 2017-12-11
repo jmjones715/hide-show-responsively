@@ -18,23 +18,15 @@ html {
 }
 
 body {
-  margin: .5em;
-  display: block;
+  text-align: center;
 }
 
-[src$="images/diplodocus.jpg"] {
+img {
   display: inline-block;
-  max-width: 90%;
-  line-height: 1.3;
+  width: 100%;
 }
 
 [src$="images/stegosaurus.jpg"] {
-  display: inline-block;
-  max-width: 90%;
-  line-height: 1.3;
-}
-
-[src$="images/hadrosaur.jpg"] {
   display: none;
 }
 
@@ -44,100 +36,41 @@ body {
 
 @media only screen and (min-width: 25em) {
 
-  [src$="images/diplodocus.jpg"] {
+  img {
     display: inline-block;
-    max-width: 90%;
-    line-height: 1.3;
+    width: 49%;
   }
 
   [src$="images/stegosaurus.jpg"] {
     display: inline-block;
-    max-width: 90%;
-    line-height: 1.3;
-  }
-
-  [src$="images/hadrosaur.jpg"] {
-    display: none;
-  }
-
-  [src$="images/iguanodon.jpg"] {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 36em) {
-
-  [src$="images/diplodocus.jpg"] {
-    display: inline-block;
-    max-width: 45%;
-    line-height: 1.3;
-  }
-
-  [src$="images/stegosaurus.jpg"] {
-    display: inline-block;
-    max-width: 45%;
-    line-height: 1.3;
-  }
-
-  [src$="images/hadrosaur.jpg"] {
-    display: inline-block;
-    max-width: 45%;
-    line-height: 1.3;
   }
 
   [src$="images/iguanodon.jpg"] {
     display: inline-block;
-    max-width: 45%;
-    line-height: 1.3;
   }
 }
 
 @media only screen and (min-width: 38em) {
 
+  img {
+    display: inline-block;
+    width: 32%;
+  }
+
   [src$="images/diplodocus.jpg"] {
-    display: inline-block;
-    max-width: 32%;
-    line-height: 1.4;
-  }
-
-  [src$="images/stegosaurus.jpg"] {
-    display: inline-block;
-    max-width: 32%;
-    line-height: 1.4;
-  }
-  [src$="images/hadrosaur.jpg"] {
-    display: inline-block;
-    max-width: 32%;
-    line-height: 1.4;
-  }
-
-  [src$="images/iguanodon.jpg"] {
     display: none;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
+  img {
+    display: inline-block;
+    width: 24%;
+  }
+
   [src$="images/diplodocus.jpg"] {
     display: inline-block;
-    max-width: 24%;
-    line-height: 1.5;
   }
 
-  [src$="images/stegosaurus.jpg"] {
-    display: inline-block;
-    max-width: 24%;
-    line-height: 1.5;
-  }
-  [src$="images/hadrosaur.jpg"] {
-    display: inline-block;
-    max-width: 24%;
-    line-height: 1.5;
-  }
-
-  [src$="images/iguanodon.jpg"] {
-    display: inline-block;
-    max-width: 24%;
-    line-height: 1.5;
-  }
 }
